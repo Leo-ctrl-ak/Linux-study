@@ -1,0 +1,27 @@
+# 1. 查看你当前在哪
+pwd
+
+# 2. 回到用户主目录
+cd ~
+pwd
+
+# 3. 进入桌面文件夹
+cd Desktop
+pwd
+ls
+
+# 4. 回到上一级文件夹
+cd ..
+pwd
+ls
+
+# 5. 进入Linux-study仓库文件夹
+cd Linux-study
+pwd
+ls
+
+# 6. 退回主目录，再重新进入Linux-study
+cd ~
+cd Linux-study
+pwd
+ls
