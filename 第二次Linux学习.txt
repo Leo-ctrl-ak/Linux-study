@@ -1,0 +1,46 @@
+# 1. 在Linux-study里新建测试文件夹
+mkdir test1
+mkdir test2
+mkdir test3
+ls
+
+# 2. 新建空测试文件
+touch a.txt
+touch b.txt
+touch c.txt
+touch test1/d.txt
+ls
+ls test1
+
+# 3. 复制文件
+cp a.txt test1/
+cp b.txt test2/
+cp test1/a.txt test3/
+ls test1
+ls test2
+ls test3
+
+# 4. 复制文件夹
+cp -r test1 test1_bak
+ls
+
+# 5. 移动/重命名文件
+mv a.txt new_a.txt
+mv new_a.txt test3/
+mv test2 test2_backup
+ls
+ls test3
+
+# 6. 删除文件&文件夹
+rm c.txt
+rm test3/d.txt
+rm -r test1_bak
+ls
+
+# 7. 全套循环再来一遍！
+mkdir work
+touch 1.sh 2.log 3.md
+cp 1.sh work/
+mv 2.log work/
+rm 3.md
+rm -r work
