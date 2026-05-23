@@ -1,0 +1,22 @@
+# 1. 新建文件并写入内容
+touch study.txt
+nano study.txt
+# 进入编辑器：随便写几行文字
+# 保存：Ctrl+O → 回车
+# 退出：Ctrl+X
+
+# 2. 多种方式查看文件内容
+cat study.txt
+head study.txt
+tail study.txt
+less study.txt
+# less里按q退出
+
+# 3. 重复编辑+查看
+nano study.txt
+# 修改内容，再次保存退出
+cat study.txt
+
+# 4. 复制文件，查看副本内容
+cp study.txt study_bak.txt
+cat study_bak.txt
