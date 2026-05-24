@@ -1,0 +1,17 @@
+# 1. 查看文件详细权限
+ls -l study.txt
+
+# 2. 修改文件权限
+sudo chmod 777 study.txt
+ls -l study.txt
+
+sudo chmod 644 study.txt
+ls -l study.txt
+
+# 3. 管理员创建文件
+sudo touch root_test.txt
+ls -l
+
+# 4. Ubuntu软件源基础命令
+sudo apt update
+sudo apt list
