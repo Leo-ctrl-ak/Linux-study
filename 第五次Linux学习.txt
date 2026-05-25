@@ -1,0 +1,17 @@
+# 1. 测试网络连通
+ping baidu.com
+# 按Ctrl+C停止
+
+ping github.com
+# Ctrl+C停止
+
+# 2. 查看本机IP
+ip addr
+
+# 3. 查看系统运行进程
+ps aux
+top
+# 按q退出top
+
+# 4. 查看系统磁盘空间
+df -h
