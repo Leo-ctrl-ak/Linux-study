@@ -1,0 +1,14 @@
+# 1. 进入Git仓库
+cd ~/Linux-study
+
+# 2. 修改/新建测试文件
+touch git_test.txt
+nano git_test.txt
+
+# 3. Git全套流程
+git add .
+git commit -m "Linux+Git综合测试提交"
+git push
+
+# 4. 浏览器打开仓库，查看新文件
+# 看完回来，再重复一遍上面全部Git命令！
