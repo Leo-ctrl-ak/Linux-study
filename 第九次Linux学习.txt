@@ -1,0 +1,17 @@
+# 1. grep：过滤文件关键词
+echo "hello linux" >> test_vim.txt
+echo "hello git" >> test_vim.txt
+grep "linux" test_vim.txt   # 查找包含 linux 的行
+grep -n "hello" test_vim.txt# 显示匹配行的行号
+
+# 2. wc：统计文件行数/字符数
+wc -l test_vim.txt          # 统计行数
+wc -w test_vim.txt          # 统计单词数
+
+# 3. sort 排序 + uniq 去重
+echo "b" > sort.txt
+echo "a" >> sort.txt
+echo "a" >> sort.txt
+sort sort.txt               # 排序
+sort sort.txt | uniq        # 排序后去重
+```
