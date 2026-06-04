@@ -1,0 +1,13 @@
+# 1. tar 压缩：打包文件夹
+tar -zcvf test1.tar.gz test1    # 压缩 test1 文件夹
+ls                              # 查看压缩包
+
+# 2. tar 解压：解压压缩包
+mkdir tar_test
+tar -zxvf test1.tar.gz -C tar_test/  # 解压到指定目录
+ls tar_test
+
+# 简易 zip 压缩
+zip test.zip a.txt b.txt        # 压缩文件
+unzip test.zip                  # 解压
+```
