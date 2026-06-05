@@ -1,0 +1,10 @@
+```bash
+# ln -s 创建软链接
+# 给 study.txt 创建软链接
+ln -s study.txt link_study
+ls -l link_study        # 查看软链接
+cat link_study          # 直接访问原文件内容
+
+# 删除软链接
+rm link_study
+```
