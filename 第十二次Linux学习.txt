@@ -1,0 +1,7 @@
+```bash
+# chown：修改文件/文件夹的所属用户/用户组=
+sudo chown root:root study.txt  # 改为 root 管理员权限
+ls -l study.txt
+
+sudo chown $USER:$USER study.txt# 改回自己的用户
+ls -l study.txt
