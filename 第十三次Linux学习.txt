@@ -1,0 +1,11 @@
+```bash
+# 1. 重定向：把命令结果写入文件
+echo "我是重定向内容" > redirect.txt  # 覆盖写入
+cat redirect.txt
+echo "追加一行新内容" >> redirect.txt # 追加写入
+cat redirect.txt
+
+# 2. 管道符 |：把前一个命令结果传给后一个
+ls -l | grep txt          # 只显示 txt 文件
+ps aux | grep git         # 只查看 git 进程
+```
